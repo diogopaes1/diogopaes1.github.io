@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentação do painel de pesquisa Solo por Imagem e sua integração com o Google Drive.">
+  <title>Política de privacidade · Solo por Imagem</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="limite barra">
+      <a class="marca" href="./index.html"><span class="selo" aria-hidden="true"></span> Solo por Imagem</a>
+      <nav aria-label="Documentação"><a href="./index.html">Início</a>
+<a href="./privacidade.html" aria-current="page">Privacidade</a>
+<a href="./termos.html">Termos de uso</a></nav>
+    </div>
+  </header>
+  <main class="limite" id="conteudo">
+
+    <article class="leitura documento">
+      <p class="chamada">Integração com o Google Drive</p>
+      <h1>Política de privacidade</h1>
+      <p>Esta política descreve o tratamento de dados pelo painel local Solo por Imagem na sincronização do catálogo de conferência.</p>
+      <h2>Acesso solicitado</h2>
+      <p>O painel usa o escopo <code>drive.file</code>. O seletor de arquivos é limitado ao XLSX de conferência configurado. Na ativação, o painel consulta o identificador, o tipo do arquivo e a capacidade de editá-lo. Na sincronização, o Drive devolve o identificador e o checksum usados para confirmar a revisão enviada.</p>
+      <h2>Conteúdo enviado</h2>
+      <p>O painel gera o XLSX a partir do catálogo local de pesquisa. As abas podem conter identificadores, vínculos, informações de coleta, medições laboratoriais, nomes de arquivos e comentários do catálogo. A integração envia o XLSX. Os scans TIFF, os recortes e o banco SQLite são armazenados localmente.</p>
+      <h2>Armazenamento e compartilhamento</h2>
+      <p>O Google Drive armazena a planilha e suas revisões. O proprietário do arquivo administra quem pode acessá-lo. A credencial do painel fica em uma pasta privada do usuário no Windows e é usada para renovar o acesso junto ao Google.</p>
+      <h2>Controle e revogação</h2>
+      <p>Para interromper o acesso do painel, remova a conexão do Solo por Imagem na <a href="https://myaccount.google.com/connections">Conta do Google</a> e remova a credencial local. Para gerenciar a planilha, suas revisões e sua retenção, use as opções do arquivo no Drive. Para dúvidas, use o contato de suporte indicado na tela de autorização do Google.</p>
+      <h2>Uso de dados da API do Google</h2>
+      <p>O uso de informações recebidas das APIs do Google segue a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+    </article>
+
+  </main>
+  <footer class="limite rodape">
+    <span>Solo por Imagem</span>
+    <a href="./privacidade.html">Política de privacidade</a>
+    <a href="./termos.html">Termos de uso</a>
+  </footer>
+</body>
+</html>

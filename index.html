@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentação do painel de pesquisa Solo por Imagem e sua integração com o Google Drive.">
+  <title>Início · Solo por Imagem</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="limite barra">
+      <a class="marca" href="./index.html"><span class="selo" aria-hidden="true"></span> Solo por Imagem</a>
+      <nav aria-label="Documentação"><a href="./index.html" aria-current="page">Início</a>
+<a href="./privacidade.html">Privacidade</a>
+<a href="./termos.html">Termos de uso</a></nav>
+    </div>
+  </header>
+  <main class="limite" id="conteudo">
+
+    <section class="abertura">
+      <div>
+        <p class="chamada">Projeto de pesquisa · Textura do solo</p>
+        <h1>Solo por Imagem</h1>
+        <p class="introducao">Um painel de trabalho para investigar como imagens de scanner podem ajudar a estimar as frações de areia, silte e argila de amostras de solo.</p>
+        <a class="destaque" href="./privacidade.html">Como o painel usa o Google Drive</a>
+      </div>
+      <div class="sequencia" aria-label="Fluxo do catálogo">
+        <p class="chamada">Do acervo à conferência</p>
+        <ol>
+          <li><strong>Acervo local</strong><span>Scans, amostras e medições de laboratório</span></li>
+          <li><strong>Catálogo de conferência</strong><span>XLSX gerado a partir do SQLite</span></li>
+          <li><strong>Arquivo no Google Drive</strong><span>Nova revisão no arquivo selecionado</span></li>
+        </ol>
+      </div>
+    </section>
+    <section class="leitura">
+      <h2>Por que o painel pede acesso ao Drive?</h2>
+      <p>Depois que o operador salva os filtros dos scans, o painel pode atualizar a planilha de conferência. Na autorização, o Google Picker apresenta o XLSX configurado. Uma conta com permissão de edição confirma o acesso a esse arquivo.</p>
+      <p>A integração envia a revisão do XLSX ao mesmo arquivo no Drive. O proprietário administra o link e o compartilhamento pelas permissões do Google Drive.</p>
+    </section>
+
+  </main>
+  <footer class="limite rodape">
+    <span>Solo por Imagem</span>
+    <a href="./privacidade.html">Política de privacidade</a>
+    <a href="./termos.html">Termos de uso</a>
+  </footer>
+</body>
+</html>
